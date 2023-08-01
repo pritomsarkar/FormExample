@@ -1,0 +1,106 @@
+.formContainer {
+    margin: 0.8rem;
+}
+
+.name {
+    display: inline-block;
+    width: 50%;
+}
+
+.name>input {
+    width: 8rem;
+    height: 2rem;
+}
+input:focus{
+    background-color: antiquewhite;
+}
+
+.name>input::placeholder {
+    font: 0.7rem sans-serif;
+}
+
+.inputLabel {
+    font-size: 0.9rem;
+}
+
+.formRow {
+    margin-bottom: 0.8rem;
+}
+
+.email>input {
+    width: 96%;
+    height: 2rem;
+}
+
+.email>input::placeholder {
+    font: 0.7rem sans-serif;
+}
+
+.phoneContainer {
+    width: 99%;
+    height: 2rem;
+}
+
+.phoneInitial {
+    display: inline-block;
+    width: 21%;
+    height: 2rem;
+}
+
+.phoneInitial>select {
+    height: 2.3rem;
+}
+
+.phoneContainer>input {
+    height: 2rem;
+    width: 76%;
+}
+
+.message,
+.addMsgBtn {
+    display: inline;
+    color: #6b716f;
+}
+
+.addMsgBtn {
+    margin-left: 6rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.messageText {
+    width: 96%;
+    height: 4rem;
+}
+
+.updateWP {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.updateMessage {
+    margin-left: 0.5rem;
+    margin-top: 0;
+}
+
+.submitBtn {
+    width: 7rem;
+    height: 2rem;
+    background-color: #62bb34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.updateCheck{
+    cursor: pointer;
+}
+
+.buttonArea {
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}
